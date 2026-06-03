@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Glitch Productions: Фан-сайт по glitch production</title>
+    <meta name="description" content="Всё о вселенной Glitch Productions: новости, обзоры сериалов The Amazing Digital Circus, Murder Drones, история создания студии и многое другое.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        
+
+        header {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        
+        .logo span {
+            color: #f39c12;
+        }
+        
+        .menu {
+            display: flex;
+            gap: 25px;
+        }
+        
+        .menu a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+        
+        .menu a:hover {
+            color: #f39c12;
+        }
+        
+        .page-title {
+            text-align: center;
+            color: white;
+            padding: 30px 20px;
+        }
+        
+        .page-title h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        
+        .page-title p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px 40px 50px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .card {
+            background: white;
+            width: 280px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+        
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 35px rgba(0,0,0,0.3);
+        }
+        .card-image {
+    height: 200px;          
+    overflow: hidden;       
+}
+
+.card-image img {
+    width: 100%;             
+    height: 100%;            
+    object-fit: cover;       
+}
+        
+        .card-content {
+            padding: 20px;
+        }
+        
+        .card h3 {
+            font-size: 22px;
+            margin-bottom: 5px;
+            color: #1a1a2e;
+        }
+        
+        .year {
+            color: #f39c12;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .card p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+        
+        .card button {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 14px;
+            transition: opacity 0.3s;
+        }
+        
+        .card button:hover {
+            opacity: 0.8;
+        }
+        
+        footer {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 30px;
+            margin-top: 30px;
+            gap: 20px;
+        }
+        
+        
+        .footer-section {
+            text-align: center;
+        }
+        
+        .footer-section h4 {
+            margin-bottom: 10px;
+            color: #f39c12;
+        }
+        
+        .footer-section p {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .page-title h1 {
+                font-size: 32px;
+            }
+            
+            .cards-container {
+                padding: 20px;
+            }
+        }
+        .card-link {
+    display: block;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    transition: opacity 0.3s, transform 0.2s;
+    margin-top: 15px;
+}
+
+.card-link:hover {
+    opacity: 0.8;
+    transform: translateY(-2px);
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">🎬 <span>Glitch</span>Production</div>
+        <div class="menu">
+    <a href="index.html">Главная</a>
+    <a href="about.html">О студии</a>
+    <a href="contact.html">Контакты</a>
+</div>
+    </header>
+    
+    <div class="page-title">
+        <h1>✨Glitch Production✨</h1>
+        <p>Студия, которая подарила нам много интересных и захватывающих историй</p>
+    </div>
+    
+    <div class="cards-container">
+        <div class="card">
+            <div class="card-image">
+                <img src="http://images-s.kinorium.com/movie/poster/10639737/w1500_56174407.jpg" alt="The Amazing Digital Circus">
+            </div>
+            <div class="card-content"></div>
+                <h3>The Amazing Digital Circus</h3>
+                <div class="year">🎬 2023-2026</div>
+                <p>Шоу о группе людей, застрявших в сюрреалистичной цифровой игре, где реальность и безумие переплетаются.</p>
+                <a href="tabc.html" class="card-link">Подробнее</a>
+
+        </div>
+        
+        <div class="card">
+            <div class="card-image">
+                <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/1f016cd2-b48f-4951-933c-4da90a7227bc/1920x" alt="Murder Drones">
+            </div>
+            <div class="card-content">
+                <h3>Murder drones</h3>
+                <div class="year">🎬 2021-2024</div>
+                <p>Постапокалиптический экшен про дронов-убийц, охотящихся на последних людей, и заводского дрона-дефекта, который нарушает правила.</p>
+                <a href="murder.drones.html" class="card-link">Подробнее</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-image">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/0e7e59160381157.63b3ba19e9be1.png" alt="meta Runner">
+            </div>
+            <div class="card-content">
+                <h3>Meta Runner</h3>
+                <div class="year">🎬 2019-2022</div>
+                <p>Футуристичный экшен-сериал о бегунах, которые соревнуются в виртуальном пространстве, пытаясь вырваться из-под контроля системы.</p>
+               <a href="Meta.Runner.html" class="card-link">Подробнее</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="https://avatars.mds.yandex.net/i?id=9c22f0ae10c8911c6f61046caa527f6e_l-5220417-images-thumbs&n=13" alt="SMG4">
+            </div>
+            <div class="card-content">
+                <h3>SMG4</h3>
+                <div class="year">🎬 2011-2025</div>
+                <p>Комедийный сериал с элементами пародии и абсурдного юмора, часто высмеивающий поп-культуру и видеоигры.</p>
+                <a href="SMG4.html" class="card-link">Подробнее</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/06e94f00-817a-473f-bd13-d6862c0ae994/1920x" alt="Sunset Paradise">
+            </div>
+            <div class="card-content">
+                <h3>Sunset Paradise</h3>
+                <div class="year">🎬 2021</div>
+                <p>История о Мэгги Сплетцер, которая едет на остров в отпуск, но вынуждена стать шерифом и сражаться с преступниками, попутно борясь со своим тёмным альтер-эго</p>
+                <a href="Sunset.Paradise.html" class="card-link">Подробнее</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="https://avatars.mds.yandex.net/i?id=3f4bd3215d7d476b0eab91b654e985c2_l-4568749-images-thumbs&n=13" alt="The Gaslight District">
+            </div>
+            <div class="card-content">
+                <h3>The Gaslight District</h3>
+                <div class="year">🎬 2025</div>
+                <p>Криминальная драма о банде мертвецов («Улыбчивые Трупы») в постапокалиптическом мире, где они строят планы по краже артефакта «Яйцо Ангела» </p>
+                <a href="The.Gaslight.District.html" class="card-link">Подробнее</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="http://images-s.kinorium.com/movie/poster/12057861/w1500_53775977.jpg" alt="Knights of Guinevere">
+            </div>
+            <div class="card-content">
+                <h3>Knights of Guinevere</h3>
+                <div class="year">🎬 2025</div>
+                <p>Фэнтези-триллер о двух инженерах, которые находят повреждённого андроида-принцессу в мусоре под огромным развлекательным парком.</p>
+               <a href="Knights.of.Guinevere.html" class="card-link">Подробнее</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="https://sun1-83.userapi.com/impf/fIQXVoh1g3lV8tPOEkqAtTph6v0_CcBs4EZaVw/8kD9LR2CTHU.jpg?size=1920x768&quality=95&crop=74,0,1250,500&sign=98f53637036d7a5e7e27eb7efad384e0&type=cover_group" alt="Gameoverse">
+            </div>
+            <div class="card-content">
+                <h3>Gameoverse</h3>
+                <div class="year">🎬 2026</div>
+                <p>Экшен о героине по имени Кит, которая страдает от ПТСР после случайного уничтожения своего игрового мира и теперь путешествует по вселенным, спасая их от исчезновения .</p>
+              <a href="Gameoverse.html" class="card-link">Подробнее</a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-section">
+            <h4>🏆 Glitch Production</h4>
+            <p>Основана 24 мая 2017 года</p>
+            <p>7 основных анимационных веб-сериалов</p>
+            <p>8 до основания студии</p>
+            <p> 9 полнометражнх фильмов</p>
+            <p>2 комикса</p>
+            <p>1 видеоигра</p>
+            <p>Ранеее название "Glitchy Boy"</p>
+        </div>
+        <div class="footer-section">
+            <h4>📞 Контакты</h4>
+            <p>📍 Австралия, Сидней</p>
+            <p>🌐 glitchprod.com</p>
+        </div>
+        <div class="footer-section">
+            <h4>📱 Соцсети</h4>
+            <p>📘 Магазин мерча: glitchproductions.store.</p>
+            <p>🐦 Telegramm: GLITCH Россия</p>
+            <p>📺 YouTube: GLITCH</p>
+        </div>
+    </footer>
+</body>
+</html>
